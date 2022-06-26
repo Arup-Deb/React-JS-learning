@@ -11,6 +11,9 @@ import Counter from './components/Counter';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import LifecycleA from './components/LifecycleA';
 
 
 class App extends Component {
@@ -18,7 +21,9 @@ class App extends Component {
 render() {
     return (
          <div className = "App">
-          <ParentComponent/>
+          {/* <NameList/> */}
+          {/* <UserGreeting/> */}
+          {/*<ParentComponent/>*/}
           {/*<EventBind/>*/}
            {/* <FunctionClick/>*/}
             {/*<ClassClick/>*/}
@@ -35,7 +40,7 @@ render() {
      
       <Welcome  name="Arp"  heroName="Batman"/>
       <Welcome   name="Arpi"  heroName="Batmian"/>*/}
-      
+      <LifecycleA/>
         </div>
     );
  }
